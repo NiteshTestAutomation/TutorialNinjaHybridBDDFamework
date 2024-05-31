@@ -11,7 +11,7 @@ public class DriverFactory {
 	public static WebDriver initializeDriver(String browserName)
     {
 		
-	    driver = DriverFactory.initializeDriver(browserName);
+	   // driver = DriverFactory.initializeDriver(browserName);
 	    
 	    if (browserName=="chrome")
 	    {
